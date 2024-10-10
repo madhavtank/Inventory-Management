@@ -69,6 +69,10 @@ We implemented several reinforcement learning methods to solve this inventory ma
 4. **Natural Gradient with Fischer Projection Matrix**:
    - Incorporates Fischer information to adjust the gradients for better convergence properties.
 
+5. **Sarsa(λ)**:
+   - An on-policy temporal difference (TD) control algorithm that updates the value of state-action pairs using eligibility traces. This method balances exploration and exploitation while improving stability through the use of the trace-decay parameter, λ. Sarsa(λ) is particularly useful in continuous state and action spaces, making it a good fit for the inventory management problem.
+
+
 ## Contributors
 
 - Madhav Tank
